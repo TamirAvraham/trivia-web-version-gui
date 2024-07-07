@@ -1,0 +1,15 @@
+header{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: teal;
+    height: 10vh;
+    border-bottom: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header h1{
+    text-align: center;
+    font-size: xx-large;
+}
