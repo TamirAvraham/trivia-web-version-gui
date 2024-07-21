@@ -1,4 +1,5 @@
 import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { RequestStatus } from "../services/consts";
 
 export class User {
   private userId: number;
@@ -21,7 +22,7 @@ export class User {
 interface AuthState {
   user: User | null,
   isAuthenticated: boolean
-  requestStatus: 'not started' | 'completed' | 'error' | 'loading'
+  requestStatus:RequestStatus 
   error: string
 }
 

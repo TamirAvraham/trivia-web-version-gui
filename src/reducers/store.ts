@@ -1,9 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
 import authCounter from './userReducer'
-
+import roomCounter from './roomsReducer'
 const store = configureStore({
     reducer: {
         auth: authCounter,
+        room: roomCounter,
     },
 });
 

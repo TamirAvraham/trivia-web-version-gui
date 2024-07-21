@@ -1,0 +1,1 @@
+export type RequestStatus = 'not started' | 'completed' | 'error' | 'loading' 
